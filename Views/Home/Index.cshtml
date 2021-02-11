@@ -143,100 +143,52 @@
         }
 
         $("#AutoAttack").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#AutoAttack").val()
-            })
-            );
+            sockets.send("AutoAttack");
         });
         $("#PetAttack").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#PetAttack").val()
-            })
-            );
+            sockets.send("PetAttack");
         });
         $("#Assist").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#Assist").val()
-            })
-            );
+            sockets.send("Assist Group member");
         });
         $("#Followbutton").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#Followbutton").val()
-            })
-            );
+            sockets.send("Follow");
         });
         $("#CircleOfBrimstone").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#CircleOfBrimstone").val()
-            })
-            );
+            sockets.send("BrimstoneC");
         });
         $("#Burnout8").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#Burnout8").val()
-            })
-            );
+            sockets.send("Burnout8");
         });
         $("#IceflameEfflux").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#IceflameEfflux").val()
-            })
-            );
+            sockets.send("IceflameE");
         });
         $("#EmperealGuardian").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#EmperealGuardian").val()
-            })
-            );
+            sockets.send("EmpG");
         });
         $("#AspectOfEarth").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#AspectOfEarth").val()
-            })
-            );
+            sockets.send("AspEarth");
         });
         $("#Gate").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#Gate").val()
-            })
-            );
+            sockets.send("Gate");
         });
         $("#Sit").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#Sit").val()
-            })
-            );
+            sockets.send("Sit");
         });
         $("#RumblingServant").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#RumblingServant").val()
-            })
-            );
+            sockets.send("RumblingServant");
         });
         $("#HulkingBodyguard").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#HulkingBodyguard").val()
-            })
-            );
+            sockets.send("HulkingBodyguard");
         });
         $("#ShockOfMany").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#ShockOfMany").val()
-            })
-            );
+            sockets.send("Shock Many");
         });
         $("#ShockDiscSteel").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#ShockDiscSteel").val()
-            })
-            );
+            sockets.send("Shock Steel");
         });
         $("#DelugeOfThunderbolts").click(function () {
-            sockets.send(JSON.stringify({
-                selection: $("#DelugeOfThunderbolts").val()
-            })
-            );
+            sockets.send("DelugeThund");
         });
 
     });
